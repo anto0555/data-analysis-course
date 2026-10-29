@@ -1,0 +1,30 @@
+selec
+* = todos
+from = desde
+
+SELEC nombre, precio FROM Productos;
+
+where = if
+
+SELEC * FROM Productos WHERE producto = 'tech' ;
+
+and y or = y, or
+
+like = tipo, parecido, es
+
+limin = el numero  de registros que nosotros queremos que regrese
+
+SELEC * FROM productos LIMIT 3;
+
+2 TABLAS:
+
+PK = primary key (clave primaria, ejemplo: id) 
+FK = foreing key (clave extranjera): (solo si necesitamos vincular datos de una tabla con otra, ej: user_id)
+
+JOIN: une 2 tablas si el id es igual (PK id = FK user_id)
+ON
+
+SELECT clientes.monto
+de la lista clientes traer nombre
+
+
